@@ -4,6 +4,7 @@ import Link from 'next/link';
 
 // Wallet
 import { useWallet, useConnection } from '@solana/wallet-adapter-react';
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
 // Components
 import { RequestAirdrop } from '../../components/RequestAirdrop';
@@ -57,6 +58,7 @@ export const HomeView: FC = ({ }) => {
         </div>
         <WalletMultiButton className="btn" />
       </div>
+      <div className="foot"><img src="ban.png" /></div>
     </div>
   );
 };

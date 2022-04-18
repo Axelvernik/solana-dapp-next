@@ -41,13 +41,13 @@ btn{
   color: #be4f3e !important;
 }
 .h-screen{
-      background-color: #000917;
+      background-color: #0a121d;
 }
 /* example: override wallet button style */
 .wallet-adapter-button:not([disabled]):hover {
   background-color: #707070;
 }
 footer{
-      background-color: #000917 !important;
+      background-color: #0a121d !important;
       padding: 0 !important;
 }

@@ -37,6 +37,9 @@ btn{
 * {
   box-sizing: border-box;
 }
+.navbar a:hover{
+  color: #be4f3e !important;  
+}
 
 /* example: override wallet button style */
 .wallet-adapter-button:not([disabled]):hover {

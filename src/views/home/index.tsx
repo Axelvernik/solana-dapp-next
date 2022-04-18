@@ -35,7 +35,7 @@ export const HomeView: FC = ({ }) => {
 
   return (
     <div className="hero mx-auto p-4 min-h-16 py-4">
-      <div className="hero-content flex flex-col max-w-lg">
+      <div className="hero-content flex flex-col">
         <h1 className="text-3xl pl-12 font-bold">
           BugBearz Treasury <span className='text-sm font-normal align-top text-slate-700'>v{pkg.version}</span>
         </h1>

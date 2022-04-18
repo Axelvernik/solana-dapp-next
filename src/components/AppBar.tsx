@@ -52,16 +52,19 @@ export const AppBar: FC = props => {
         <div className="navbar-center lg:flex">
           <div className="flex items-stretch">
             <Link href="/">
-              <a className="btn btn-ghost btn-sm rounded-btn">Home</a>
+              <a className="btn btn-ghost btn-sm rounded-btn">Treasury</a>
             </Link>
             <Link href="/basics">
-              <a className="btn btn-ghost btn-sm rounded-btn">Basics</a>
+              <a className="btn btn-ghost btn-sm rounded-btn">COIN FARM</a>
             </Link>
             <Link href="/token">
-              <a className="btn btn-ghost btn-sm rounded-btn">Token</a>
+              <a className="btn btn-ghost btn-sm rounded-btn">Play game</a>
             </Link>
             <Link href="/nft">
-              <a className="btn btn-ghost btn-sm rounded-btn">NFT</a>
+              <a className="btn btn-ghost btn-sm rounded-btn">FAQ</a>
+            </Link>
+            <Link href="/nft">
+              <a className="btn btn-ghost btn-sm rounded-btn">SWAP USDC</a>
             </Link>
           </div>
         </div>

@@ -19,9 +19,15 @@ a {
 }
 
 .navbar-start img{
-  height: 90px;
+  height: 80px;
 }
-
+.btn-sm {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+.dn{
+  padding: 0 !important;
+}
 * {
   box-sizing: border-box;
 }

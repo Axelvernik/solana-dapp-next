@@ -17,9 +17,7 @@ a {
 .dn svg{
   display: none;
 }
-.px-2 svg{
-  display: block !important;
-}
+
 .navbar-start img{
   height: 90px;
 }

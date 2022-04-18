@@ -21,6 +21,12 @@ a {
 .navbar-start img{
   height: 80px;
 }
+btn{
+  padding: 6px 16px !important;
+    background-color: #be4f3e !important;
+    margin: 0px auto !important;
+    border-radius: 18px !important;
+}
 .btn-sm {
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;

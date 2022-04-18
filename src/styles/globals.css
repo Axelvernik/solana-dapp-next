@@ -14,6 +14,12 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.p-2 svg{
+  display: none;
+}
+.navbar-start img{
+  height: 90px;
+}
 
 * {
   box-sizing: border-box;
@@ -23,4 +29,3 @@ a {
 .wallet-adapter-button:not([disabled]):hover {
   background-color: #707070;
 }
-

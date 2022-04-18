@@ -40,8 +40,7 @@ export const HomeView: FC = ({ }) => {
           BugBearz Treasury <span className='text-sm font-normal align-top text-slate-700'>v{pkg.version}</span>
         </h1>
         <h4 className="w-full max-w-md mx-auto text-center text-slate-300">
-          <p>Simply the fastest way to start building your dAPP on Solana.</p>
-          Next.js, tailwind, wallet, web3.js, and more.
+          <p>Welcome to the BugBearz Hodlerz Treasury. To get started - connect your wallet</p>
         </h4>
         <div className="mockup-code bg-primary m-0 pl-2 pr-16">
           <pre data-prefix=">">

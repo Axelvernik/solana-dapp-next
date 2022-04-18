@@ -31,21 +31,7 @@ export const HomeView: FC = ({ }) => {
       getUserSOLBalance(wallet.publicKey, connection)
     }
   }, [wallet.publicKey, connection, getUserSOLBalance])
-try {
-  // const address = "3EqUrFrjgABCWAnqMYjZ36GcktiwDtFdkNYwY6C6cDzy;
-  // or use Solana Domain
-  const address = wallet.publicKey;
 
-  const publicAddress = await resolveToWalletAddress({
-    text: address
-  });
-
-  const nftArray = await getParsedNftAccountsByOwner({
-    publicAddress,
-  });
-} catch (error) {
-  console.log("Error thrown, while fetching NFTs", error.message);
-}
   return (
     <div className="hero mx-auto p-4 min-h-16 py-4">
       <div className="hero-content flex flex-col max-w-lg">

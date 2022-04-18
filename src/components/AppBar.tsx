@@ -44,7 +44,7 @@ export const AppBar: FC = props => {
                 </clipPath>
               </defs>
             </svg>
-            <img src="logob.png">
+            <img src="logob.png" />
           </div>
         </div>
 

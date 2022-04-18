@@ -38,9 +38,11 @@ btn{
   box-sizing: border-box;
 }
 .navbar a:hover{
-  color: #be4f3e !important;  
+  color: #be4f3e !important;
 }
-
+.h-screen{
+      background-color: #0a121d;
+}
 /* example: override wallet button style */
 .wallet-adapter-button:not([disabled]):hover {
   background-color: #707070;

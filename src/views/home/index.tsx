@@ -58,7 +58,7 @@ export const HomeView: FC = ({ }) => {
         </div>
         <WalletMultiButton className="btn" />
       </div>
-      <div className="foot"><img src="ban.png" /></div>
+    
     </div>
   );
 };

@@ -36,8 +36,8 @@ export const HomeView: FC = ({ }) => {
   return (
     <div className="hero mx-auto p-4 min-h-16 py-4">
       <div className="hero-content flex flex-col max-w-lg">
-        <h1 className="text-5xl pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-          Scaffold Lite <span className='text-sm font-normal align-top text-slate-700'>v{pkg.version}</span>
+        <h1 className="text-3xl pl-12 font-bold">
+          BugBearz Treasury <span className='text-sm font-normal align-top text-slate-700'>v{pkg.version}</span>
         </h1>
         <h4 className="w-full max-w-md mx-auto text-center text-slate-300">
           <p>Simply the fastest way to start building your dAPP on Solana.</p>
@@ -58,7 +58,7 @@ export const HomeView: FC = ({ }) => {
         </div>
         <WalletMultiButton className="btn" />
       </div>
-    
+
     </div>
   );
 };

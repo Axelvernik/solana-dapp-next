@@ -49,12 +49,13 @@ export const HomeView: FC = ({ }) => {
         </div>
         <div>
           <RequestAirdrop />
-          
+
         </div>
         <div className="text-center">
           {/* {wallet.publicKey && <p>Public Key: {wallet.publicKey.toBase58()}</p>} */}
           {wallet && <p>SOL Balance: {(balance || 0).toLocaleString()}</p>}
         </div>
+        <WalletMultiButton className="btn" />
       </div>
     </div>
   );

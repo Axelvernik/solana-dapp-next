@@ -31,9 +31,6 @@ export const HomeView: FC = ({ }) => {
       getUserSOLBalance(wallet.publicKey, connection)
     }
   }, [wallet.publicKey, connection, getUserSOLBalance])
-
-  return (
-
 try {
   // const address = "3EqUrFrjgABCWAnqMYjZ36GcktiwDtFdkNYwY6C6cDzy;
   // or use Solana Domain
@@ -49,6 +46,7 @@ try {
 } catch (error) {
   console.log("Error thrown, while fetching NFTs", error.message);
 }
+  return (
     <div className="hero mx-auto p-4 min-h-16 py-4">
       <div className="hero-content flex flex-col max-w-lg">
         <h1 className="text-5xl pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">

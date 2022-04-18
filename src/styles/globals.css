@@ -34,6 +34,12 @@ a {
 .dn{
   padding: 0 !important;
 }
+.wallet-adapter-button{
+  font-family: inherit !important;
+}
+.text-slate-700 {
+    color: #fff !important;
+}
 * {
   box-sizing: border-box;
 }

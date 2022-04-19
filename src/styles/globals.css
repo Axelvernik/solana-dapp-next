@@ -32,8 +32,16 @@ right: 100px;
 height: 240px;
 }
 .btnn{
-  margin-top: 230px !important;
-  transition-delay: 3s;
+  margin-top: 0px !important;
+   animation: showDiv 3s forwards;
+}
+@keyframes showDiv {
+  0%, 99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 230px;
+  }
 }
 .wallet-adapter-button, .btnn{
   padding: 6px 16px !important;

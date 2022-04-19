@@ -33,11 +33,12 @@ height: 240px;
 }
 .btnn{
   margin-top: 230px !important;
+  transition-delay: 3s;
 }
 .wallet-adapter-button, .btnn{
   padding: 6px 16px !important;
     background-color: #be4f3e !important;
-    margin: 0px auto ;
+    margin: 0px auto;
     border-radius: 18px !important;
 }
 .btn-sm {

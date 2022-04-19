@@ -37,7 +37,7 @@ height: 240px;
 .wallet-adapter-button, .btnn{
   padding: 6px 16px !important;
     background-color: #be4f3e !important;
-    margin: 0px auto !important;
+    margin: 0px auto ;
     border-radius: 18px !important;
 }
 .btn-sm {

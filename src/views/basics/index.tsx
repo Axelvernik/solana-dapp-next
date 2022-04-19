@@ -12,18 +12,17 @@ export const BasicsView: FC = ({ }) => {
         BugBearz Treasury
       </h1>
         {}
-        <div className="сс">
-        <img src="gold.gif" />
-      </div>
-      <div className="сс">
-      <img src="gold.gif" />
-    </div>
-    <div className="сс">
-    <img src="gold.gif" />
-  </div>
-  <div className="сс">
-  <img src="gold.gif" />
-</div>
+        <div class="row">
+   <div class="col">
+     <img src="gold.gif" />
+   </div>
+   <div class="col-6">
+     <img src="gold.gif" />
+   </div>
+   <div class="col">
+     <img src="gold.gif" />
+   </div>
+ </div>
         <div className="p-2 text-center">
          <a className="btn btnn btn-sm rounded-btn">Create Staking Pool</a>
           <SignMessage/>

@@ -23,12 +23,12 @@ a {
 }
 .colbg img{
   position: absolute;
-left: 150px;
+left: 100px;
 height: 240px;
 }
 .colgold img{
   position: absolute;
-right: 150px;
+right: 100px;
 height: 240px;
 }
 .wallet-adapter-button, .btnn{

@@ -33,7 +33,7 @@ height: 240px;
 }
 .btnn{
   margin-top: 0px;
-   animation: showDiv 3s forwards;
+   animation: showDiv 4s forwards;
 }
 @keyframes showDiv {
   0%, 99% {

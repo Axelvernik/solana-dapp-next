@@ -11,7 +11,16 @@ export const BasicsView: FC = ({ }) => {
       <h1 className="text-3xl font-bold">
         BugBearz Treasury
       </h1>
-        {/* CONTENT GOES HERE */}
+        {}
+        <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-center ml-24">
+        <img src="gold.gif">
+      </div>
+      <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-center ml-24">
+      <img src="gold.gif">
+    </div>
+    <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-center ml-24">
+    <img src="gold.gif">
+  </div>
         <div className="p-2 text-center">
          <a className="btn btnn btn-sm rounded-btn">Create Staking Pool</a>
           <SignMessage/>

@@ -21,10 +21,15 @@ a {
 .navbar-start img{
   height: 80px;
 }
-.colgold{
+.colbg{
   position: absolute;
 left: 150px;
-width: 200px;
+height: 240px;
+}
+.colgold{
+  position: absolute;
+right: 150px;
+height: 240px;
 }
 .wallet-adapter-button, .btnn{
   padding: 6px 16px !important;

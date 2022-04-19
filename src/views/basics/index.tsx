@@ -14,10 +14,10 @@ export const BasicsView: FC = ({ }) => {
         {}
         <div className="row">
    <div className="colgold">
-     <img src="goldb.gif" />
+     <img src="gold".gif" />
    </div>
-   <div className="col-6">
-     <img src="gold.gif" />
+   <div className="colbg">
+     <img src="bg.gif" />
    </div>
    <div className="col">
      <img src="gold.gif" />

@@ -12,7 +12,7 @@ export const BasicsView: FC = ({ }) => {
   return (
     <div className="hero mx-auto p-4 min-h-16 py-4">
       <div className="hero-content flex flex-col">
-      <h1 className="text-3xl font-bold">
+      <h1 className="text-3xl font-bold g">
         BugBearz Treasury
       </h1>
         {}

@@ -12,7 +12,7 @@ export const BasicsView: FC = ({ }) => {
         BugBearz Treasury
       </h1>
         {}
-        <div class="row">
+        <div className="row">
    <div className="col">
      <img src="gold.gif" />
    </div>

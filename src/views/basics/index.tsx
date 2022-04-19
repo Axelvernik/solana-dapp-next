@@ -9,7 +9,7 @@ export const BasicsView: FC = ({ }) => {
     <div className="hero mx-auto p-4 min-h-16 py-4">
       <div className="hero-content flex flex-col">
       <h1 className="text-3xl font-bold">
-        BugBearz Treasury
+        Hodlerz Treasury
       </h1>
         {}
         <div className="row">
@@ -19,9 +19,7 @@ export const BasicsView: FC = ({ }) => {
    <div className="colbg">
      <img src="bg.gif" />
    </div>
-   <div className="col">
-     <img src="gold.gif" />
-   </div>
+   
  </div>
 
         <div className="p-2 text-center">

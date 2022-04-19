@@ -2,6 +2,10 @@
 import { FC } from "react";
 import { SignMessage } from '../../components/SignMessage';
 import { SendTransaction } from '../../components/SendTransaction';
+import React from "react";
+
+// reactstrap components
+import { Container, Row, Col } from "reactstrap";
 
 export const BasicsView: FC = ({ }) => {
 

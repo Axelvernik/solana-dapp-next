@@ -21,6 +21,11 @@ a {
 .navbar-start img{
   height: 80px;
 }
+.colgold{
+  position: absolute;
+left: 150px;
+width: 200px;
+}
 .wallet-adapter-button, .btnn{
   padding: 6px 16px !important;
     background-color: #be4f3e !important;

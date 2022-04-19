@@ -19,14 +19,12 @@ export const BasicsView: FC = ({ }) => {
    <div className="colbg">
      <img src="bg.gif" />
    </div>
-   
+
  </div>
 
         <div className="p-2 text-center">
          <a className="btn btnn btn-sm rounded-btn">Create Staking Pool</a>
-          <SignMessage/>
-          <SendTransaction />
-          {<p>&lt; your content &gt;</p>}
+        
         </div>
       </div>
     </div>

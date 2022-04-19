@@ -5,7 +5,7 @@ import { SendTransaction } from '../../components/SendTransaction';
 import React from "react";
 
 // reactstrap components
-import { Container, Row, Col } from "reactstrap";
+import {Container, Row, Col} from 'react-bootstrap';
 
 export const BasicsView: FC = ({ }) => {
 

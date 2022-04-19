@@ -21,7 +21,7 @@ a {
 .navbar-start img{
   height: 80px;
 }
-.wallet-adapter-button{
+.wallet-adapter-button, .btnn{
   padding: 6px 16px !important;
     background-color: #be4f3e !important;
     margin: 0px auto !important;
